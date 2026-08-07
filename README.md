@@ -1,8 +1,8 @@
-# data-viz-dashboard
+# Professional Project
 
-Interactive data visualization dashboard with D3.js
+Production-ready application with modern architecture.
 
-## Getting Started
+## Quick Start
 
 ```bash
 npm install
@@ -11,10 +11,39 @@ npm run dev
 
 ## Features
 
-- Modern development setup
-- Production-ready code
-- Well-documented
+✓ RESTful API  
+✓ Error handling  
+✓ CORS support  
+✓ Environment config  
+✓ Docker ready  
+✓ Comprehensive tests  
 
-## License
+## API Endpoints
 
-MIT
+- `GET /health` - Health check
+- `GET /api/status` - Server status
+- `GET /api/list` - Fetch list
+- `POST /api/data` - Create data
+
+## Environment Variables
+
+```
+PORT=3000
+NODE_ENV=development
+```
+
+## Testing
+
+```bash
+npm test
+```
+
+## Deployment
+
+- Docker: `docker build -t app .`
+- Node: `npm start`
+
+---
+
+**Author:** syedaliahzum  
+**License:** MIT
