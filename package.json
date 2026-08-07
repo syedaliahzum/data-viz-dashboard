@@ -1,0 +1,14 @@
+{
+  "name": "data-viz-dashboard",
+  "version": "1.0.0",
+  "description": "Interactive data visualization dashboard with D3.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Development server'",
+    "build": "echo 'Building...'",
+    "start": "node index.js"
+  },
+  "keywords": ["development", "project"],
+  "author": "",
+  "license": "MIT"
+}
